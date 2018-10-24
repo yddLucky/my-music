@@ -22,7 +22,7 @@ babel-polyfill： es api转义
 
 - css
 
-@import '~common/stylus/variable' css里面别名设置无效，加上~可以解释成模块路径，不加就是相对路径
+@import '\~common/stylus/variable' css里面别名设置无效，加上~可以解释成模块路径，不加就是相对路径
 
 - router
 
